@@ -1,0 +1,8 @@
+from tkinter import *
+root = Tk()
+root.geometry("444x233")
+root.title("welcome to GUI")
+title_label=Label(text='''welcome to python''', bg="red", fg="white", padx=113, pady=94,
+                  font="comicsansms 19 bold", borderwidth=3, relief=SUNKEN)
+title_label.pack(anchor="ne", fill=X)
+root.mainloop()
