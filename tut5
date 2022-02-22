@@ -1,0 +1,10 @@
+from tkinter import *
+root=Tk()
+root.geometry("655x333")
+def hello():
+    print("hello world")
+frame=Frame(root, borderwidth=6, bg="blue", relief= SUNKEN)
+frame.pack(side=LEFT, anchor="nw")
+b1=Button(frame, fg="blue", text="print", command=hello)
+b1.pack()
+root.mainloop()
